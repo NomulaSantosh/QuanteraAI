@@ -4,6 +4,8 @@ import Abou from '../components/Abou'
 import Missio from '../components/Missio'
 import Vission from '../components/Vission'
 import Benefit from '../components/Benefit'
+import Services from '../components/Services'
+import Choose from '../components/Choose'
 
 const Home = () => {
   return (
@@ -13,6 +15,8 @@ const Home = () => {
       <Missio />
       <Vission />
       <Benefit />
+      <Services />
+      <Choose />
     </div>
   )
 }
