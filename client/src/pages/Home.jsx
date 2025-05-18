@@ -6,6 +6,9 @@ import Vission from '../components/Vission'
 import Benefit from '../components/Benefit'
 import Services from '../components/Services'
 import Choose from '../components/Choose'
+import Popular from '../components/Popular'
+import Teams from '../components/Teams'
+import Testimonials from '../components/Testimonials'
 
 const Home = () => {
   return (
@@ -17,6 +20,9 @@ const Home = () => {
       <Benefit />
       <Services />
       <Choose />
+      <Popular />
+      <Teams />
+      <Testimonials />
     </div>
   )
 }
