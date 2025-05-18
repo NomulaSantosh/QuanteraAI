@@ -62,7 +62,7 @@ const Services = () => {
         <img src={RobotImage} alt="Robot" className="absolute right-0 top-0 w-[350px] max-w-full object-contain mb-4" />
 
         {/* Cards grid */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 gap-20 z-10 relative lg:w-3/4">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-10 z-10 relative lg:w-3/4">
           {servicesData.map((service, index) => (
             <div key={index} className="relative">
               <div className="relative bg-white rounded-xl shadow-md px-6 py-16 text-left border border-t-blue-600 border-l-blue-600 border-r-blue-600 border-b-gray-300 hover:shadow-lg transition-all">
