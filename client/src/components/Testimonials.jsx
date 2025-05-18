@@ -32,8 +32,8 @@ const TestimonialsSection = () => {
       <div className="container mx-auto px-4">
         <div className="flex flex-col items-center text-center mb-12">
           <div className="flex items-center gap-2 mb-4">
-            <div className="w-6 h-1 bg-blue-800 rounded-full" />
-            <h2 className="text-blue-800 text-lg font-medium">Testimonials</h2>
+            <div className="w-6 h-1 bg-gradient-to-r from-blue-800 to-blue-500 rounded-full" />
+            <h2 className="text-2xl font-semibold bg-gradient-to-r from-blue-800 to-blue-500 text-transparent bg-clip-text">Testimonials</h2>
           </div>
           <h3 className="text-4xl font-bold text-gray-800 mb-4">
             What Say Our Clients!

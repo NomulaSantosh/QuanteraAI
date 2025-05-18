@@ -9,6 +9,8 @@ import Choose from '../components/Choose'
 import Popular from '../components/Popular'
 import Teams from '../components/Teams'
 import Testimonials from '../components/Testimonials'
+import Contact from '../components/Contact'
+import Card from '../components/Card'
 
 const Home = () => {
   return (
@@ -23,6 +25,8 @@ const Home = () => {
       <Popular />
       <Teams />
       <Testimonials />
+      <Contact />
+      <Card />
     </div>
   )
 }

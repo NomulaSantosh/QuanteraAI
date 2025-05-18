@@ -21,8 +21,8 @@ const TeamSection = () => {
       <div className="container mx-auto px-4">
         <div className="flex flex-col justify-center items-center text-center mb-12">
           <div className='flex justify-center items-center text-center gap-2 mb-10'>
-            <div className="w-6 h-1 bg-blue-800 rounded-full" />
-            <p className="text-blue-800 text-lg">Our Teams</p>
+            <div className="w-6 h-1 bg-gradient-to-r from-blue-800 to-blue-500 rounded-full" />
+            <p className="text-2xl font-semibold bg-gradient-to-r from-blue-800 to-blue-500 text-transparent bg-clip-text">Our Teams</p>
           </div>
           <h2 className="text-4xl font-bold text-gray-800 mb-10">
             Meet Our Experienced Team Members

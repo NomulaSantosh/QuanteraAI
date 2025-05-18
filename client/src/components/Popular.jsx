@@ -49,8 +49,8 @@ const FaqSection = () => {
     <div className="bg-[#f4f8fc] py-16 px-4">
       <div className="text-center mb-10">
         <div className="flex justify-center items-center space-x-2 mb-2">
-          <div className="w-6 h-1 bg-blue-800 rounded-full" />
-          <p className="text-blue-800 font-medium">Popular FAQs</p>
+          <div className="w-6 h-1 bg-gradient-to-r from-blue-800 to-blue-500 text-transparent rounded-full" />
+          <p className="text-2xl font-semibold bg-gradient-to-r from-blue-800 to-blue-500 text-transparent bg-clip-text">Popular FAQs</p>
         </div>
         <h2 className="text-3xl sm:text-4xl font-bold text-gray-900">
           Frequently Asked Questions
